@@ -1,0 +1,465 @@
+/*
+	Theme Name: Milenia (child)
+	Theme URI: http://velikorodnov.com/wordpress/milenia
+	Description: Milenia WordPress Theme is a responsive WordPress theme created especially for hotels, resorts, hostels, boutique and apartments a complete hotel and vacation rental booking system within theme package. Developed for the latest WordPress version. Milenia supports all responsive layouts and looks great on all devices. Theme doesn’t focus on any specific hotel establishment, so you may use it for hotels, bed and breakfast websites, guest houses, apartments, villas, and even hostels.
+	Author: Monkeysan
+	Author URI: https://themeforest.net/user/monkeysan/portfolio
+	Template: milenia
+	Version: 1.0.0
+	License: Commercial
+	License URI: http://themeforest.net/licenses/regular_extended
+	Text Domain: milenia
+	Tags: one-column, two-columns, left-sidebar, right-sidebar, sticky-post, rtl-language-support, threaded-comments, translation-ready, theme-options, featured-images
+*/
+
+/*------------------------------------------------------------------
+[Add Your Custom CSS Here] */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, body p {
+	font-weight: 400;
+	color: #5b5b5b;
+}
+
+.milenia-header--dark [class*=milenia-header-section] {
+	background-color: #5B5B5B !important;
+}
+
+.milenia-sidebar-hidden {
+	background-color: #5B5B5B;
+}
+
+.milenia-navigation-vertical a {
+	color: #EDE8E5;
+}
+
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical > li > a::before {
+    background-color: #ffffff;
+}
+
+.milenia-body--scheme-lightbrown .milenia-navigation-vertical li:hover > a, .milenia-body--scheme-lightbrown .milenia-navigation-vertical li.milenia-seleceted > a, .milenia-body--scheme-lightbrown .milenia-navigation-vertical li.milenia-tapped > a, .milenia-body--scheme-lightbrown .milenia-navigation-vertical li.current-menu-ancestor > a, .milenia-body--scheme-lightbrown .milenia-navigation-vertical li.current-menu-parent > a, .milenia-body--scheme-lightbrown .milenia-navigation-vertical li.current-menu-item > a {
+	color: #ffffff;
+}
+
+.milenia-body--scheme-lightbrown .milenia-social-icon--scheme-secondary a:not(.milenia-ln--independent):not(.milenia-btn) {
+	color: #ffffff;
+}
+
+.milenia-body--scheme-lightbrown .milenia-section-subtitle {
+    color: #5B5B5B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #5B5B5B !important;
+	font-weight: 400;
+}
+
+.milenia-breadcrumb h1.milenia-page-title {
+    font-size: 16px;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+
+.milenia-body--scheme-lightbrown .milenia-btn--scheme-primary:not(.milenia-btn--link), .milenia-body--scheme-lightbrown .milenia-btn--scheme-primary:not(.milenia-btn--link).milenia-btn--reverse:hover, .milenia-body--scheme-lightbrown .milenia-btn--scheme-secondary:not(.milenia-btn--link), .milenia-body--scheme-lightbrown .milenia-btn--scheme-secondary:not(.milenia-btn--link).milenia-btn--reverse:hover, .milenia-body--scheme-lightbrown .milenia-entity .button.mphb-book-button:not(.milenia-btn--link), .milenia-body--scheme-lightbrown .milenia-entity-single .button.mphb-book-button:not(.milenia-btn--link), .milenia-body--scheme-lightbrown .widget_wysija input[type=submit], .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-primary:not(.milenia-btn--link), .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-primary:not(.milenia-btn--link).milenia-btn--reverse:hover, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-secondary:not(.milenia-btn--link), .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-secondary:not(.milenia-btn--link).milenia-btn--reverse:hover, .milenia-body--scheme-lightbrown:not(body) .milenia-entity .button.mphb-book-button:not(.milenia-btn--link), .milenia-body--scheme-lightbrown:not(body) .milenia-entity-single .button.mphb-book-button:not(.milenia-btn--link), .milenia-body--scheme-lightbrown:not(body) .widget_wysija input[type=submit] {
+    border-color: #EDE8E5;
+    background-color: #EDE8E5;
+    color: #5b5b5b;
+}
+
+.milenia-body--scheme-lightbrown .milenia-btn--scheme-primary:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown .milenia-btn--scheme-primary:not(.milenia-btn--link):focus, .milenia-body--scheme-lightbrown .milenia-btn--scheme-primary:not(.milenia-btn--link).milenia-btn--reverse, .milenia-body--scheme-lightbrown .milenia-btn--scheme-secondary:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown .milenia-btn--scheme-secondary:not(.milenia-btn--link):focus, .milenia-body--scheme-lightbrown .milenia-btn--scheme-secondary:not(.milenia-btn--link).milenia-btn--reverse, .milenia-body--scheme-lightbrown .milenia-entity .button.mphb-book-button:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown .milenia-entity .button.mphb-book-button:not(.milenia-btn--link):focus, .milenia-body--scheme-lightbrown .milenia-entity-single .button.mphb-book-button:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown .milenia-entity-single .button.mphb-book-button:not(.milenia-btn--link):focus, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-primary:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-primary:not(.milenia-btn--link):focus, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-primary:not(.milenia-btn--link).milenia-btn--reverse, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-secondary:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-secondary:not(.milenia-btn--link):focus, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-secondary:not(.milenia-btn--link).milenia-btn--reverse, .milenia-body--scheme-lightbrown:not(body) .milenia-entity .button.mphb-book-button:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown:not(body) .milenia-entity .button.mphb-book-button:not(.milenia-btn--link):focus, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-single .button.mphb-book-button:not(.milenia-btn--link):hover, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-single .button.mphb-book-button:not(.milenia-btn--link):focus {
+    color: #EDE8E5;
+    background-color: #5b5b5b;
+}
+
+.milenia-body--scheme-lightbrown .milenia-action-buttons > a, .milenia-body--scheme-lightbrown .milenia-action-buttons > button {
+    background-color: #5b5b5b;
+}
+
+.milenia-body--scheme-lightbrown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev, .milenia-body--scheme-lightbrown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next, .milenia-body--scheme-lightbrown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev, .milenia-body--scheme-lightbrown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+    background-color: #5b5b5b;
+}
+
+.milenia-body--scheme-lightbrown .milenia-btn--scheme-primary.milenia-btn--link, .milenia-body--scheme-lightbrown .milenia-btn--scheme-secondary.milenia-btn--link, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-primary.milenia-btn--link, .milenia-body--scheme-lightbrown:not(body) .milenia-btn--scheme-secondary.milenia-btn--link {
+    color: #5b5b5b;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #5b5b5b), to(#5b5b5b));
+    background-image: linear-gradient(to bottom, #5b5b5b 100%, #5b5b5b 100%);
+}
+
+.milenia-body--scheme-lightbrown .milenia-icon-boxes--style-2 .milenia-icon-box-icon, .milenia-body--scheme-lightbrown .milenia-icon-boxes--style-1 .milenia-icon-box-icon, .milenia-body--scheme-lightbrown .milenia-icon-boxes--style-1 .milenia-icon-box-title, .milenia-body--scheme-lightbrown .milenia-icon-boxes--style-3 .milenia-icon-box-icon, .milenia-body--scheme-lightbrown:not(body) .milenia-icon-boxes--style-2 .milenia-icon-box-icon, .milenia-body--scheme-lightbrown:not(body) .milenia-icon-boxes--style-1 .milenia-icon-box-icon, .milenia-body--scheme-lightbrown:not(body) .milenia-icon-boxes--style-1 .milenia-icon-box-title, .milenia-body--scheme-lightbrown:not(body) .milenia-icon-boxes--style-3 .milenia-icon-box-icon {
+    color: #EDE8E5;
+}
+
+#the-advantages .milenia-grid.milenia-grid--cols-3 p {
+	color: #EDE8E5;
+}
+
+.milenia-testimonial blockquote {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.milenia-colorizer--scheme-dark .milenia-colorizer-bg-color {
+    background-color: #5b5b5b;
+}
+
+.milenia-footer .milenia-grid--cols-4 ul li a, .milenia-footer .milenia-grid--cols-4 ul li {
+    color: #ffffff !important;
+}
+
+.milenia-footer #milenia_social_icons-1 ul li a {
+	color: #5b5b5b;
+}
+
+.milenia-sidebar-hidden-close {
+	color: #ffffff;
+}
+
+.milenia-entity-content .milenia-entity-meta a {
+	color: #5b5b5b !important;
+}
+
+#tab-reviews-link, #tab-availability-link, #tab-reservation-link, #tab-rates-link {
+	display: none;
+}
+
+body.milenia-body--border-layout {
+    padding: 0;
+}
+
+.milenia-body--scheme-lightbrown a:not(.milenia-ln--independent):not(.milenia-btn), .milenia-body--scheme-lightbrown:not(body) a:not(.milenia-ln--independent):not(.milenia-btn) {
+    color: #5B5B5B;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #5B5B5B), to(#5B5B5B));
+    background-image: linear-gradient(to bottom, #5B5B5B 100%, #5B5B5B 100%);
+}
+
+/* a.button.mphb-view-details-button {
+	border-color: #5b5b5b !important;
+    background: #5b5b5b !important;
+}
+
+a.button.mphb-book-button {
+	color: #5b5b5b !important;
+	border-color: #EDE8E5 !important;
+	background: #EDE8E5 !important;
+} */
+
+#media_gallery-2 #gallery-1 {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.milenia-award img, #media_gallery-1 img, #media_gallery-2 img {
+	max-width: 48%;
+}
+
+.milenia-footer-row--inner .milenia-grid-item-content {
+	margin-top: unset !important;
+}
+
+.milenia-body--scheme-lightbrown .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a:not(.milenia-btn):not(.button) {
+    color: #858585;
+}
+
+.milenia-body--scheme-lightbrown .milenia-list--icon .fa, .milenia-body--scheme-lightbrown .milenia-list--icon .fal, .milenia-body--scheme-lightbrown .milenia-list--icon .far, .milenia-body--scheme-lightbrown .milenia-list--icon .fab, .milenia-body--scheme-lightbrown .milenia-list--icon .fas, .milenia-body--scheme-lightbrown .milenia-list--icon .icon, .milenia-body--scheme-lightbrown .milenia-list--icon [class*=milenia-font-icon-], .milenia-body--scheme-lightbrown .milenia-list--icon [class*=milenia-svg-icon-], .milenia-body--scheme-lightbrown .milenia-list--icon > li::before {
+    color: #858585;
+}
+
+.milenia-body--scheme-lightbrown .milenia-tabs:not(.milenia-tabs--unstyled).milenia-tabs--style-2 .milenia-active > a::after {
+    border-color: #858585;
+}
+
+.milenia-content {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.info-box-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-box-footer .milenia-entity-categories a {
+	font-size: 0.75rem;
+    line-height: 1.2rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 0.78rem;
+    padding-bottom: 0.88rem;
+	color: #ffffff !important;
+	background-color: #5b5b5b;
+	margin-right: 10px;
+	text-transform: uppercase;
+}
+
+.info-box-footer .milenia-entity-categories a:hover {
+	background-color: #ffffff;
+	border-color: #5b5b5b;
+	color:#5b5b5b !important;
+	border: solid 1px;
+}
+
+.milenia-btn--link {
+    line-height: 1.2rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    padding-top: 0.78rem;
+    padding-bottom: 0.68rem;
+	background-color: #EDE8E5;
+	border-color: #5b5b5b;
+	display: inline-block !important;
+}
+
+input[type=submit], .mphb-button, .milenia-theme .woocommerce-Button.button, .milenia-btn:not(.milenia-btn--link):not([class*=milenia-btn--scheme-]), .milenia-btn:not(.milenia-btn--link):not([class*=milenia-btn--scheme-]).milenia-btn--reverse:hover {
+	border-color: #EDE8E5;
+    background-color: #EDE8E5;
+    color: #5b5b5b;
+}
+
+.info-box-footer .milenia-entity-categories a:before {
+	display: none;
+}
+
+.page-id-3091 .milenia-grid-item, .page-id-3100 .milenia-grid-item, .page-id-3107 .milenia-grid-item {
+	padding-top: 0 !important;
+}
+
+.page-id-1352 .milenia-entities.milenia-entities--style-6 {
+	margin-top: 2.8rem;
+}
+
+.milenia-body--scheme-lightbrown .milenia-singlefield-form button {
+	background-color: #EDE8E5;
+	color: #5B5B5B;
+}
+
+.lang-switcher {
+	position: relative;
+}
+
+.menu-secondary {
+    position: absolute;
+    background: rgba(#000000A6, .65);
+    transition: all 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+}
+
+.menu-secondary.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.mphb-to-book-btn-wrapper form {
+	display: none;
+}
+
+.mphb-to-book-btn-wrapper a.custom-button {
+	background-color: #EDE8E5 !important;
+	color: #5B5B5B !important;
+	border: solid 1px #EDE8E5 !important;;
+}
+
+.mphb-to-book-btn-wrapper a.custom-button:hover, .mphb-view-details-button-wrapper a.mphb-view-details-button:hover {
+	color: #5b5b5b !important;
+}
+
+h1.mphb-room-type-title.entry-title {
+	margin-top: 20px !important;
+}
+
+.milenia-body--scheme-lightbrown .milenia-banners.milenia-banners--style-2 .milenia-banner-content {
+    background-color: rgb(237 232 229 / 80%);
+    color: #5b5b5b;
+}
+
+.milenia-body--scheme-lightbrown .milenia-banners.milenia-banners--style-2 .milenia-banner-content h2 {
+	color: #5b5b5b;
+}
+
+.milenia-body--scheme-lightbrown .milenia-banners.milenia-banners--style-2 .milenia-banner-content a {
+	color: #5b5b5b;
+}
+
+.milenia-body--scheme-custom .milenia-btn--scheme-primary:not(.milenia-btn--link) {
+	background-color: #EDE8E5 ;
+	color: #5B5B5B;
+}
+
+.milenia-body--scheme-brown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev, .milenia-body--scheme-brown .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next, .milenia-body--scheme-brown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev, .milenia-body--scheme-brown:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+    background-color: #5B5B5B;
+}
+.mphb-price {
+	display: none !important;
+}
+
+.milenia-body--scheme-gray .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev, .milenia-body--scheme-gray .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next, .milenia-body--scheme-gray:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-prev, .milenia-body--scheme-gray:not(body) .owl-carousel:not(.owl-carousel--nav-edges) .owl-nav .owl-next {
+    background-color: #5B5B5B;
+}
+
+.milenia-footer-row--inner .widget_media_gallery .milenia-grid-item-inner .gallery {
+	justify-content: center;
+}
+
+.milenia-footer-row--inner .widget_media_gallery .milenia-grid-item-inner .gallery .gallery-item {
+	width: 8%;
+}
+
+.info-box-footer {
+	justify-content: start;
+}
+
+.page-id-566 [class*=milenia-section--stretched-content] .milenia-entities--style-3 .milenia-entity-content {
+	flex: 1 1 50%;
+}
+
+.page-id-566 [class*=milenia-section--stretched-content] .milenia-entities--style-3 .milenia-entity-media {
+	flex: 1 1 50%;
+}
+
+.milenia-grid--cols-1 .milenia-grid-item:not(:first-of-type) {
+	padding-top: 0 !important;
+}
+
+.milenia-content .milenia-aligner .milenia-aligner-inner {
+	text-align:left;
+}
+
+.milenia-entities--style-15 .milenia-grid {
+	margin-top: 0 !important;
+}
+
+.milenia-entity-content .milenia-get-excerpt {
+	margin-bottom: 2rem;
+}
+.milenia-entities--style-3 .milenia-entity-body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.milenia-aligner-inner .milenia-entity-body p:first-of-type {
+	margin-bottom: 5px;
+}
+
+.form-col.milenia-custom-select select {
+	border-style: solid;
+    border-width: 1px;
+    height: 2.4375rem;
+    width: 100%;
+    font-style: normal;
+    padding-top: 0.3rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #858585;
+    background-color: #f8f8f8;
+    border-color: #dadada;
+}
+
+.wpcf7-response-output {
+	border-width: 0;
+	background-color: #f8f8f8;
+}
+
+.milenia-theme #tribe-events .tribe-events-button, .milenia-theme .tribe-events-button, .milenia-btn--scheme-dark:not(.milenia-btn--link), .milenia-btn--scheme-dark:not(.milenia-btn--link).milenia-btn--reverse:hover, [class*=milenia-body--scheme-] .widget_wysija input[type=submit]:hover, .milenia-body--scheme-green .widget_mphb_search_availability_widget .milenia-btn--scheme-primary:not(.milenia-btn--link) {
+    border-color: #5b5b5b;
+    background-color: #5b5b5b;
+}
+
+.form-col.w-50 {
+	flex: 1 1 50%;
+	margin-top: auto;
+}
+
+.milenia-entities--style-5 .milenia-entity-content {
+	background-color: #f8f8f8;
+    margin-bottom: 3rem;
+}
+
+#milenia-footer-section-2 h1, #milenia-footer-section-2 h2, #milenia-footer-section-2 h3, #milenia-footer-section-2 h4, #milenia-footer-section-2 h5, #milenia-footer-section-2 h6, #milenia-footer-section-2 p, #milenia-footer-section-3 p, #milenia-footer-section-2 a {
+	color: #ffffff !important;
+}
+
+#milenia-footer-section-2 .milenia-grid-item-inner {
+	text-align: left;
+}
+
+.milenia-body--scheme-lightbrown .milenia-colorizer--scheme-dark a:not(.milenia-ln--independent):not(.milenia-btn) {
+    color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ffffff), to(#ffffff));
+    background-image: linear-gradient(to bottom, #ffffff 100%, #ffffff 100%);
+}
+
+.milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled):not([class*=milenia-list--scheme]) ul > li::before, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled):not([class*=milenia-list--scheme]) > li::before, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li::before, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .fal, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .far, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .fab, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .fas, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .icon, .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > [class*=milenia-font-icon-], .milenia-body--scheme-lightbrown .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > [class*=milenia-svg-icon-], .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled):not([class*=milenia-list--scheme]) ul > li::before, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled):not([class*=milenia-list--scheme]) > li::before, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li::before, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .fal, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .far, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .fab, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .fas, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > .icon, .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > [class*=milenia-font-icon-], .milenia-body--scheme-lightbrown:not(body) .milenia-entity-content ul:not(.milenia-list--unstyled).milenia-list--icon:not([class*=milenia-list--scheme]) li > [class*=milenia-svg-icon-] {
+    color: #5b5b5b;
+}
+
+.milenia-widget:not(.milenia-widget--list-horizontal) ul:not(.milenia-list--unstyled) > li:not(:last-child) {
+	margin-bottom: 0;
+}
+
+#milenia-footer-section-1 #media_gallery-2 img {
+	max-width: 100%;
+}
+
+#milenia-footer-section-1 #gallery-1 {
+	gap: 40px;
+}
+
+[class*=milenia-section--stretched-content] .milenia-entities--style-3 .milenia-entity-content, [data-vc-full-width=true] .milenia-entities--style-3 .milenia-entity-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 33.33333%;
+    flex: 1 1 50%;
+}
+
+.milenia-entities--style-3 .milenia-entity-content, .milenia-entities--style-16 .milenia-entity-content {
+	padding-left: 13%;
+}
+
+.widget_mphb_search_availability_widget .milenia-mphb-widget-inner, .widget_mphb_search_availability_widget .milenia-widget-title {
+	font-size: 1.5rem !important;
+}
+
+.single-mphb_room_type .milenia-breadcrumb {
+	display: none;
+}
+
+.milenia-has-sidebar header.milenia-entity-single {
+	background-color: #f1f1f1;
+	text-align: center;
+	padding-bottom: 2.3rem;
+}
+
+.milenia-has-sidebar header.milenia-entity-single h1 {
+	font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.milenia-entities--style-3 .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn), .milenia-entities--style-16 .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn), .milenia-entities--style-2 .milenia-entity--scheme-light .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn), .milenia-entities--style-1 .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn), .milenia-entities--style-4 .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn), .milenia-entities--style-6 .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn), .milenia-entities--style-9 .milenia-entity-title a:not(.milenia-ln--independent):not(.milenia-btn) {
+	color: #5b5b5b;
+}
+
+.news h2.milenia-entity-title {
+	font-size: 1.5rem;
+}
+
+#tab-description ul {
+	margin-left: 20px;
+}
+
+#tab-description ul li {
+	list-style: disc;
+}
